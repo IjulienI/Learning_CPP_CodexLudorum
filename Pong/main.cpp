@@ -1,16 +1,9 @@
 #include <raylib.h>
 
-void draw() {
-	BeginDrawing();
-	DrawText("Salut raylib !", 190, 200, 20, BLUE);
-	EndDrawing();
-}
-
 int main() {
-	InitWindow(800, 450, "Interaction");
+	InitWindow(1080, 720, "NoEngine");
 
 	while (!WindowShouldClose()) {
-		draw();
 	}
 
 	CloseWindow();
