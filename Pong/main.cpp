@@ -13,7 +13,7 @@ const int VITESSE_BALLE = 5;
 const int POINTS_POUR_MATCH = 7;
 const int HAUTEUR_RAQUETTE = 128;
 const int LARGEUR_RAQUETTE = 32;
-const int TAILLE_BALLE = 32;
+const int TAILLE_BALLE = 8;
 
 Sound hit;
 Sound defeat;
@@ -86,7 +86,7 @@ void update(){
 		if(IsKeyDown(KEY_R))
 		{
 			scoreDroite = 0;
-			scoreDroite = 0;
+			scoreGauche = 0;
 			etatJeu = 0;
 			balle.x = LARGEUR_ECRAN / 2 - balle.width /2;
 			balle.y = HAUTEUR_ECRAN / 2 + balle.height / 2;
