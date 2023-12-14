@@ -1,0 +1,4 @@
+Bonsoir !
+D - Aller ramasser la dague
+F - Foncer vers la sortie
+P - Pousser l'armoire sur le magicien

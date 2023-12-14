@@ -8,7 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Pong.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "C++ Project.Pong.executor": "Run",
+    "C++ Project.Pong.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Pong",
@@ -122,6 +133,7 @@
       <workItem from="1702247568702" duration="382000" />
       <workItem from="1702319164547" duration="49000" />
       <workItem from="1702411595959" duration="830000" />
+      <workItem from="1702583621796" duration="2978000" />
     </task>
     <servers />
   </component>
