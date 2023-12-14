@@ -7,19 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,8 +127,17 @@
       <workItem from="1702319164547" duration="49000" />
       <workItem from="1702411595959" duration="830000" />
       <workItem from="1702495476143" duration="5655000" />
-      <workItem from="1702509868515" duration="2307000" />
+      <workItem from="1702509868515" duration="2361000" />
     </task>
+    <task id="LOCAL-00001" summary="[refactor] GameFinish">
+      <option name="closed" value="true" />
+      <created>1702512199407</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702512199407</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +146,7 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="[refactor] GameFinish" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor] GameFinish" />
   </component>
 </project>
