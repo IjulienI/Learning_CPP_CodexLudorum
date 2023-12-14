@@ -7,7 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="" />
+    <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/Pong.write.1u.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Pong.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Pong.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +27,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -128,6 +135,7 @@
       <workItem from="1702411595959" duration="830000" />
       <workItem from="1702495476143" duration="5655000" />
       <workItem from="1702509868515" duration="2361000" />
+      <workItem from="1702578801558" duration="3813000" />
     </task>
     <task id="LOCAL-00001" summary="[refactor] GameFinish">
       <option name="closed" value="true" />

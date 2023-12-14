@@ -14,6 +14,7 @@ const int BRIQUE_HAUTEUR = 32;
 const int BRIQUE_LIGNE = 8;
 const int BRIQUE_COLONNES = 5;
 const int BRIQUE_SEPARATEUR = 2;
+const int FPS = 60;
 const int VIE_DEPART = 3;
 
 int vie = VIE_DEPART;
@@ -40,6 +41,10 @@ void draw();
 void unload();
 bool collision(Rectangle a, Rectangle b);
 void changeDirBall();
+void BalleLogic();
+void Inputs();
+int coordBriqueVersIndex(int ligneBrique,int colonneBrique);
+
 
 int main() {
 	load();
@@ -54,7 +59,7 @@ int main() {
 void load()
 {
 	InitWindow(LARGEUR_ECRAN,HAUTEUR_ECRAN,"NoEngine");
-	SetTargetFPS(60);
+	SetTargetFPS(FPS);
 	for(int ligne = 0; ligne < BRIQUE_LIGNE;ligne++)
 	{
 		for(int colonnes = 0; colonnes < BRIQUE_COLONNES;colonnes++)
@@ -78,37 +83,9 @@ void update()
 	}
 	else
 	{
-		balle.x += vitesseBalleX;
-		balle.y += vitesseBalleY;
+		BalleLogic();
 
-		if(balle.x < 0)
-		{
-			vitesseBalleX *= -1;
-		}
-		else if(balle.x + TAILLE_BALLE > LARGEUR_ECRAN )
-		{
-			vitesseBalleX *= -1;
-		}
-		if(balle.y < 0)
-		{
-			vitesseBalleY *= -1;
-		}
-		else if(balle.y + TAILLE_BALLE > HAUTEUR_ECRAN)
-		{
-			vie--;
-			vitesseBalleY *= -1;
-			balle.x = raquette.x;
-			balle.y = HAUTEUR_ECRAN / 2;
-		}
-
-		if(IsKeyDown(KEY_D))
-		{
-			raquette.x += VITESSE_RAQUETTE;
-		}
-		if(IsKeyDown(KEY_A))
-		{
-			raquette.x += -VITESSE_RAQUETTE;
-		}
+		Inputs();
 
 		if(raquette.x < 0)
 		{
@@ -123,19 +100,18 @@ void update()
 		{
 			changeDirBall();
 		}
-
-		for(Brique& brique : briques)
+		
+		int colonneBrique = (balle.x + TAILLE_BALLE / 2)/ BRIQUE_LARGEUR;
+		int ligneBrique = balle.y / BRIQUE_HAUTEUR;
+		int index = coordBriqueVersIndex(ligneBrique,colonneBrique);
+		int maxBriques = BRIQUE_COLONNES * BRIQUE_LIGNE;
+		if(index >= 0 && index < maxBriques && briques[index].visible)
 		{
-			if(!brique.visible) continue;
-			if(collision(brique.rect, balle))
-			{
-				vitesseBalleY *= -1;
-				brique.visible = false;
-				nombreBriques--;
-			}			
+			vitesseBalleY *= -1;
+			briques[index].visible = false;
+			nombreBriques--;
 		}
-	}
-	
+	}	
 }
 
 void draw()
@@ -176,4 +152,47 @@ void changeDirBall()
 {
 	balle.y = raquette.y - balle.height;
 	vitesseBalleY = -vitesseBalleY;
+}
+
+void Inputs()
+{
+	if(IsKeyDown(KEY_D))
+	{
+		raquette.x += VITESSE_RAQUETTE;
+	}
+	if(IsKeyDown(KEY_A))
+	{
+		raquette.x += -VITESSE_RAQUETTE;
+	}
+}
+
+void BalleLogic()
+{
+	balle.x += vitesseBalleX;
+	balle.y += vitesseBalleY;
+
+	if(balle.x < 0)
+	{
+		vitesseBalleX *= -1;
+	}
+	else if(balle.x + TAILLE_BALLE > LARGEUR_ECRAN )
+	{
+		vitesseBalleX *= -1;
+	}
+	if(balle.y < 0)
+	{
+		vitesseBalleY *= -1;
+	}
+	else if(balle.y + TAILLE_BALLE > HAUTEUR_ECRAN)
+	{
+		vie--;
+		vitesseBalleY *= -1;
+		balle.x = raquette.x;
+		balle.y = HAUTEUR_ECRAN / 2;
+	}
+}
+
+int coordBriqueVersIndex(int ligneBrique,int colonneBrique)
+{
+	return ligneBrique * BRIQUE_COLONNES + colonneBrique;
 }
