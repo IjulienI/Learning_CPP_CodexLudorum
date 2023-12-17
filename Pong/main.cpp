@@ -1,4 +1,6 @@
 #include <raylib.h>
+
+#include "InterfaceLander.h"
 #include "Lander.h"
 #include "SiteAtterissage.h"
 
@@ -14,6 +16,7 @@ Lander lander{
 };
 SiteAtterissage siteAtterissage{
 "assets/images/cible.png", 400, 400};
+InterfaceLander interface { 50,50 , lander};
 
 void load();
 void update();
@@ -44,6 +47,23 @@ void update()
 	if(etat == 0)
 	{
 		lander.update(dt);
+		interface.update(dt);
+		Rectangle rectLander = lander.getRectangle();
+		Rectangle rectSite = siteAtterissage.getRectangle();
+		if(CheckCollisionRecs(rectLander,rectSite))
+		{
+			float xMaxLander = rectLander.x + rectLander.width;
+			float xMaxSite = rectSite.x + rectSite.width;
+
+			if(rectLander.x >= rectSite.x && xMaxLander <= xMaxSite && lander.atterrissageOk())
+			{
+				etat = 1;
+			}
+			else
+			{
+				etat = 2;
+			}
+		}
 	}
 	else
 	{
@@ -58,6 +78,7 @@ void draw()
 
 	lander.draw();
 	siteAtterissage.draw();
+	interface.draw();
 
 	EndDrawing();
 }

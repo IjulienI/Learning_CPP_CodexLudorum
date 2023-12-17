@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="InterfaceLander.cpp" />
     <ClCompile Include="Lander.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SiteAtterissage.cpp" />
     <ClCompile Include="Sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InterfaceLander.h" />
     <ClInclude Include="Lander.h" />
     <ClInclude Include="SiteAtterissage.h" />
     <ClInclude Include="Sprite.h" />

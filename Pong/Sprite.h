@@ -11,6 +11,7 @@ public:
     virtual void load();
     virtual void draw();
     virtual void unload();
+    Rectangle getRectangle();
 
     std::string cheminTexture {""};
     Texture2D texture;

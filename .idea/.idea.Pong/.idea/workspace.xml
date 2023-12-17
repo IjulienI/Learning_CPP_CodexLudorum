@@ -8,14 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6a2760-0d1c-47f9-9c7a-8d3170794b0c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pong/SiteAtterissage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/SiteAtterissage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pong/Sprite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pong/InterfaceLander.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pong/InterfaceLander.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pong.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Pong.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/Lander.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/Lander.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/Lander.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/Lander.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/Pong.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/Pong.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/Sprite.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/Sprite.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/Sprite.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/Sprite.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Lander.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Lander.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.ilk" afterDir="false" />
@@ -27,6 +27,8 @@
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.command.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.read.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Pong.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/SiteAtterissage.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/SiteAtterissage.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/Sprite.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/Sprite.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/main.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.idb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Pong/x64/Debug/vc143.pdb" afterDir="false" />
@@ -57,29 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.Pong.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Pong",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.Pong.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Pong&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\julie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\julie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\julie\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\julie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\julie\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\julie\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Pong" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -145,7 +147,9 @@
       <workItem from="1702247568702" duration="382000" />
       <workItem from="1702319164547" duration="49000" />
       <workItem from="1702411595959" duration="830000" />
-      <workItem from="1702767821013" duration="5049000" />
+      <workItem from="1702767821013" duration="5058000" />
+      <workItem from="1702774419214" duration="4000" />
+      <workItem from="1702828252920" duration="3650000" />
     </task>
     <servers />
   </component>
